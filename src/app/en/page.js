@@ -139,7 +139,7 @@ export default function HomeEnglish() {
           <section id="next">
             <p>04. What’s Next?</p>
             <p>Get In Touch</p>
-            <p>"I’m currently looking for new job opportunities. If you have some offer or question, my inbox is always open. I’ll try my best to get back to you!</p>
+            <p>I’m currently looking for new job opportunities. If you have some offer or question, my inbox is always open. I’ll try my best to get back to you!</p>
             <Button
               className="know-me-button"
               texto="Contact me" href="mailto:ericsalatb@gmail.com" />

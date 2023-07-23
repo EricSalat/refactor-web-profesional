@@ -29,7 +29,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-          <p>"Developed with ❤️ by  <a href="https://www.linkedin.com/in/eric-salat/" target="_blank">Èric Salat</a></p>
+          <p>Developed with ❤️ by  <a href="https://www.linkedin.com/in/eric-salat/" target="_blank">Èric Salat</a></p>
         </footer>
   );
 }

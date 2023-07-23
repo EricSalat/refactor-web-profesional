@@ -8,25 +8,56 @@ import logo from "../../../../public/logo.png";
 import { BiMenuAltRight } from "react-icons/bi";
 import { HiLanguage } from "react-icons/hi2";
 import Link from "next/link";
+// import { useEffect } from "react";
 
 
 
 function Header(props) {
 
-  // Obtener la URL actual
-  const urlActual = window.location.href;
+  // function ajustarEnlaceActual(url) {
+  //   let enlace;
+  
+  //   if (url === "https://ericsalat.com") {
+  //     enlace = url;
+  //   } else {
+  //     enlace = "https://ericsalat.com/en";
+  //   }
+  
+  //   return enlace;
+  // }
+  /*
+  useEffect( () => {
+    // Obtener la URL actual
+    const urlActual = window.location.href;
+    
+    // Definir los enlaces para ambos casos
+    const enlaceWebPrincipal = "http://ericsalat.com";
+    const enlaceOtroIdioma = "http://ericsalat.com/en";
+    
+    // Determinar cuál enlace utilizar según la URL actual
+    const enlace = urlActual === enlaceWebPrincipal ? enlaceOtroIdioma : enlaceWebPrincipal;
 
-  // Definir los enlaces para ambos casos
-  const enlaceWebPrincipal = "http://ericsalat.com";
-  const enlaceOtroIdioma = "http://ericsalat.com/en";
+    if (typeof window !== 'undefined') {
+      // Obtener la URL actual
+    const urlActual = window.location.href;
+  
+    // Definir los enlaces para ambos casos
+    const enlaceWebPrincipal = "http://ericsalat.com";
+    const enlaceOtroIdioma = "http://ericsalat.com/en";
+  
+    // Determinar cuál enlace utilizar según la URL actual
+    const enlace = urlActual === enlaceWebPrincipal ? enlaceOtroIdioma : enlaceWebPrincipal;
+    }
 
-  // Determinar cuál enlace utilizar según la URL actual
-  const enlace = urlActual === enlaceWebPrincipal ? enlaceOtroIdioma : enlaceWebPrincipal;
+  }, []);
+  */
 
   return (
     <header>
       <nav className="animate__animated animate__fadeInDown animate__delay-2s">
-           <Image src={logo} height="40" width="40" href={enlace} />
+           <a href="http://ericsalat.com/en">
+             <Image src={logo} height="40" width="40"  alt="" />
+           </a>
           <div className="contenedor-menu">
             <ol>
               <li><a href="#about">{props.about}</a></li>
