@@ -1,15 +1,14 @@
-'use client'
 import * as React from "react";
 import "./Header.css";
-import Button from "../Button/Button";
+import Button from "@/app/components/Button/Button";
 import { IoIosClose } from "react-icons/io";
 import { HiLanguage } from "react-icons/hi2";
-import { useState } from "react";
+import Link from "next/link";
 
 
-function MenuMobile({onClick}) {
 
-  const [languageIconMenu, setLanguageIconMenu] = useState(true)
+function MenuMobileEN({onClick}) {
+
 
   return(
       <div className="mobile-menu-modal animate__animated animate__fadeInRightBig animate__faster" >
@@ -27,23 +26,16 @@ function MenuMobile({onClick}) {
               </ul>
               <Button
               texto="Resume"
-              href="/CV_ERIC_SALAT_BADIA_ENG.pdf"
+              href="/CV_ERIC_SALAT_2023_EN.pdf"
               target="_blank"
               className="know-me-button"
             />
-              { languageIconMenu ? (
-              <HiLanguage style={{color: "var(--verde)", marginTop: 30, cursor: "pointer" }} size="22" 
-              onClick={() => {
-              idioma.establecerLenguaje("en-GB"); 
-              setLanguageIconMenu(false);
-              }} />
-          ) : (
-              <HiLanguage style={{color: "var(--verde)", marginTop: 30, cursor: "pointer" }} size="22" 
-              onClick={() => {
-              idioma.establecerLenguaje("es-ES"); 
-              setLanguageIconMenu(true);
-              }} />      
-          )}
+            <Link href="/">
+                <HiLanguage
+                  style={{color: "var(--verde)", marginTop: 30, cursor: "pointer" }}
+                  size="22"
+                />
+            </Link>
             </div>
           </nav>
         </div>
@@ -52,4 +44,4 @@ function MenuMobile({onClick}) {
   );
 }
 
-export default MenuMobile;
+export default MenuMobileEN;

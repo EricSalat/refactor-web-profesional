@@ -1,4 +1,3 @@
-'use client'
 import * as React from "react";
 import Image from 'next/image'
 import "./Header.css";
@@ -8,49 +7,10 @@ import logo from "../../../../../public/logo.png";
 import { BiMenuAltRight } from "react-icons/bi";
 import { HiLanguage } from "react-icons/hi2";
 import Link from "next/link";
-// import { useEffect } from "react";
 
 
 
 function HeaderEN(props) {
-
-  // function ajustarEnlaceActual(url) {
-  //   let enlace;
-  
-  //   if (url === "https://ericsalat.com") {
-  //     enlace = url;
-  //   } else {
-  //     enlace = "https://ericsalat.com/en";
-  //   }
-  
-  //   return enlace;
-  // }
-  /*
-  useEffect( () => {
-    // Obtener la URL actual
-    const urlActual = window.location.href;
-    
-    // Definir los enlaces para ambos casos
-    const enlaceWebPrincipal = "http://ericsalat.com";
-    const enlaceOtroIdioma = "http://ericsalat.com/en";
-    
-    // Determinar cuál enlace utilizar según la URL actual
-    const enlace = urlActual === enlaceWebPrincipal ? enlaceOtroIdioma : enlaceWebPrincipal;
-
-    if (typeof window !== 'undefined') {
-      // Obtener la URL actual
-    const urlActual = window.location.href;
-  
-    // Definir los enlaces para ambos casos
-    const enlaceWebPrincipal = "http://ericsalat.com";
-    const enlaceOtroIdioma = "http://ericsalat.com/en";
-  
-    // Determinar cuál enlace utilizar según la URL actual
-    const enlace = urlActual === enlaceWebPrincipal ? enlaceOtroIdioma : enlaceWebPrincipal;
-    }
-
-  }, []);
-  */
 
   return (
     <header>

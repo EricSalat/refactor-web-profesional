@@ -1,15 +1,13 @@
-'use client'
 import * as React from "react";
 import "./Header.css";
 import Button from "../Button/Button";
 import { IoIosClose } from "react-icons/io";
 import { HiLanguage } from "react-icons/hi2";
 import { useState } from "react";
+import Link from "next/link";
 
 
 function MenuMobile({onClick}) {
-
-  const [languageIconMenu, setLanguageIconMenu] = useState(true)
 
   return(
       <div className="mobile-menu-modal animate__animated animate__fadeInRightBig animate__faster" >
@@ -20,30 +18,24 @@ function MenuMobile({onClick}) {
             </div>
             <div className="mobile-menu-bottom">
               <ul>
-                <li><a onClick={onClick} href="#about">About Me</a></li>
-                <li><a onClick={onClick} href="#experience">Experience</a></li>
-                <li><a onClick={onClick} href="#works">Works</a></li>
-                <li><a onClick={onClick} href="#next">Contact</a></li>
+                <li><a onClick={onClick} href="#about">Sobre mi</a></li>
+                <li><a onClick={onClick} href="#experience">Experiencia</a></li>
+                <li><a onClick={onClick} href="#works">Trabajos</a></li>
+                <li><a onClick={onClick} href="#next">Contacto</a></li>
               </ul>
               <Button
-              texto="Resume"
-              href="/CV_ERIC_SALAT_BADIA_ENG.pdf"
+              texto="Currículum"
+              href="/CV_ERIC_SALAT_2023_ES.pdf"
               target="_blank"
               className="know-me-button"
             />
-              { languageIconMenu ? (
-              <HiLanguage style={{color: "var(--verde)", marginTop: 30, cursor: "pointer" }} size="22" 
-              onClick={() => {
-              idioma.establecerLenguaje("en-GB"); 
-              setLanguageIconMenu(false);
-              }} />
-          ) : (
-              <HiLanguage style={{color: "var(--verde)", marginTop: 30, cursor: "pointer" }} size="22" 
-              onClick={() => {
-              idioma.establecerLenguaje("es-ES"); 
-              setLanguageIconMenu(true);
-              }} />      
-          )}
+
+            <Link href="/en">
+                <HiLanguage
+                  style={{color: "var(--verde)", marginTop: 30, cursor: "pointer" }}
+                  size="22"
+                />
+            </Link>
             </div>
           </nav>
         </div>

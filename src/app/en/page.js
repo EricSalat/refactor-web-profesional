@@ -1,7 +1,5 @@
 'use client'
 import Image from 'next/image'
-import { useState } from 'react';
-// import Header from "../components/Header/Header";
 import HeaderEN from './components/Header/HeaderEN';
 import Button from "../components/Button/Button";
 import NumberedHeading from '../components/Numbered-Heading/Numbered-Heading';
@@ -10,8 +8,9 @@ import Project from "../components/Project/Project";
 import Jobs from './components/Jobs';
 import LeftAside from '../components/Asides/LeftAside';
 import RightAside from '../components/Asides/RightAside';
-import MenuMobile from '../components/Header/MenuMobile';
+import MenuMobileEN from './components/Header/MenuMobileEN';
 import Footer from "../components/Footer/Footer";
+import { useState } from 'react';
 
 export default function HomeEnglish() {
 
@@ -25,7 +24,7 @@ export default function HomeEnglish() {
       <LeftAside />
       <RightAside />
       { menuCollapse ? (
-          <MenuMobile onClick={menuIconClick} />
+          <MenuMobileEN onClick={menuIconClick} />
           ) : (
           null
         )}

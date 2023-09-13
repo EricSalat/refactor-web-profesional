@@ -1,5 +1,4 @@
 import * as React from "react";
-// import "./FichaTrabajo.css";
 
 function JobsCard(props) {
   
