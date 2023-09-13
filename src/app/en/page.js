@@ -1,7 +1,8 @@
 'use client'
 import Image from 'next/image'
 import { useState } from 'react';
-import Header from "../components/Header/Header";
+// import Header from "../components/Header/Header";
+import HeaderEN from './components/Header/HeaderEN';
 import Button from "../components/Button/Button";
 import NumberedHeading from '../components/Numbered-Heading/Numbered-Heading';
 import FotoEric from "/public/eric_salat.jpg";
@@ -28,7 +29,7 @@ export default function HomeEnglish() {
           ) : (
           null
         )}
-      <Header 
+      <HeaderEN 
         onclick={menuIconClick} 
         about="About"
         experience="Experience"

@@ -3,8 +3,8 @@ import * as React from "react";
 import Image from 'next/image'
 import "./Header.css";
 import 'animate.css';
-import Button from "../Button/Button";
-import logo from "../../../../public/logo.png";
+import Button from "@/app/components/Button/Button";
+import logo from "../../../../../public/logo.png";
 import { BiMenuAltRight } from "react-icons/bi";
 import { HiLanguage } from "react-icons/hi2";
 import Link from "next/link";
@@ -12,7 +12,7 @@ import Link from "next/link";
 
 
 
-function Header(props) {
+function HeaderEN(props) {
 
   // function ajustarEnlaceActual(url) {
   //   let enlace;
@@ -55,7 +55,7 @@ function Header(props) {
   return (
     <header>
       <nav className="animate__animated animate__fadeInDown animate__delay-2s">
-           <Link href="/">
+           <Link href="/en">
                <Image src={logo} height="40" width="40"  alt="" />
            </Link>
           <div className="contenedor-menu">
@@ -67,12 +67,12 @@ function Header(props) {
               
               <Button
                 texto="Currículum"
-                href="/CV_ERIC_SALAT_2023_ES.pdf"
+                href="/CV_ERIC_SALAT_2023_EN.pdf"
                 target="_blank"
                 className="header-button"
               />
             </ol>
-              <Link href="/en">
+              <Link href="/">
                 <HiLanguage
                   style={{color: "var(--verde)", marginLeft: 15, cursor: "pointer" }}
                   size="22"
@@ -94,4 +94,4 @@ function Header(props) {
   );
 }
 
-export default Header;
+export default HeaderEN;
