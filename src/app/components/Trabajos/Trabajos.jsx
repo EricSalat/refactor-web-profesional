@@ -118,7 +118,7 @@ export default function Trabajos(props) {
         {digitalResponse ? (
           <FichaTrabajo
           id="digital-description"
-          role="Front-end and Email Developer"
+          role="Frontend and Email Developer"
           href="https://www.digitalresponse.es/"
           company="Digital Response"
           period="Enero 2023 - Actualidad"
@@ -134,7 +134,7 @@ export default function Trabajos(props) {
         {arian ? (
           <FichaTrabajo
             id="arian-description"
-            role="Front-end Developer"
+            role="Frontend Developer"
             period="July - October 2022"
             company="Arian International Projects"
             href="https://arianinternational.eu/"

@@ -44,7 +44,7 @@ export default function Home() {
             <h2 className="big-heading animate__animated animate__fadeIn animate__delay-1s"> Y programo aplicaciones web.
             </h2>
             <p className="animate__animated animate__fadeIn animate__delay-1s">
-           Soy Front-end Developer con experiencia en marketing digital y me dedico a crear aplicaciones desde el principio hasta el final: empezando por la concepción de la idea de negocio, pasando por el desarrollo, hasta llegar a la monetización.
+           Soy Frontend Developer con experiencia en marketing digital y me dedico a crear aplicaciones desde el principio hasta el final: empezando por la concepción de la idea de negocio, pasando por el desarrollo, hasta llegar a la monetización.
             </p>
             <Button
               texto="Haz clic para conocerme"
@@ -100,7 +100,7 @@ export default function Home() {
                 tech="HTML"
                 tech2="CSS"
                 tech3="JavaScript"
-                tech4="React"
+                tech4="Next.js"
                 githublink="https://github.com/EricSalat/web-profesional"
               />
               <Project

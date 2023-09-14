@@ -117,7 +117,7 @@ export default function Jobs(props) {
         {digitalResponse ? (
           <JobsCard
           id="digital-description"
-          role="Front-end and Email Developer"
+          role="Frontend and Email Developer"
           href="https://www.digitalresponse.es/"
           company="Digital Response"
           period="January 2023 - Present"
@@ -133,7 +133,7 @@ export default function Jobs(props) {
         {arian ? (
           <JobsCard
             id="arian-description"
-            role="Front-end Developer"
+            role="Frontend Developer"
             period="July - October 2022"
             company="Arian International Projects"
             href="https://arianinternational.eu/"
@@ -166,7 +166,7 @@ export default function Jobs(props) {
         {ainkaa ? (
           <JobsCard
           id="ainkaa-description"
-          role="Front-end Developer & Project Manager"
+          role="Frontend Developer & Project Manager"
             company="Ainkaa"
             period="March 2021 - Present"
             duty1="Start-up creation program for young people to create a viable mobile app. Includes:"

@@ -45,7 +45,7 @@ export default function HomeEnglish() {
             <h2 className="big-heading animate__animated animate__fadeIn animate__delay-1s"> I build web applications.
             </h2>
             <p className="animate__animated animate__fadeIn animate__delay-1s">
-            I’m a Front-end Developer with experience in digital marketing.<br></br>
+            I’m a Frontend Developer with experience in digital marketing.<br></br>
             I create applications from the beginning to the end: the business idea, the design, the development and the monetization.
             </p>
             <Button
