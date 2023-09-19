@@ -67,10 +67,10 @@ export default function Home() {
                     <li>SASS</li>
                     <li>JavaScript (ES6+)</li>
                     <li>React</li>
-                    <li>PHP</li>
-                    <li>Google Ads</li>
-                    <li>Google Analytics</li>
-                    <li>Amazon Ads</li>
+                    <li>Next.js</li>
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
+                    <li>Storybook</li>
                   </ul>
                 </div>
               </div>
@@ -91,17 +91,16 @@ export default function Home() {
                 tech2="CSS"
                 tech3="JavaScript"
                 tech4="React"
-                weblink="https://www.ericsalat.com/kelisto/"
+                weblink="https://crypto-stocks-green.vercel.app/"
                 githublink="https://github.com/EricSalat/kelisto-ejercicio-tecnico"
               />
               <Project
                 title="Web profesional"
-                description="Revisa el código de este mismo sitio, mi web profesional, hecha con HTML, CSS, JavaScript y React."
-                tech="HTML"
-                tech2="CSS"
-                tech3="JavaScript"
-                tech4="Next.js"
-                githublink="https://github.com/EricSalat/web-profesional"
+                description="Revisa el código de este mismo sitio, mi web profesional, hecha con HTML, CSS, JavaScript, React y Next.js."
+                tech="JavaScript"
+                tech2="React"
+                tech3="Next.js"
+                githublink="https://github.com/EricSalat/refactor-web-profesional"
               />
               <Project
                 title="Web Arian International"
@@ -112,7 +111,7 @@ export default function Home() {
                 weblink="https://arianinternational.eu/"
                 githublink="https://arianinternational.eu/"
               />
-              <Project
+              {/* <Project
                 title="Calculadora"
                 description="Una calculadora para el móvil que permite sumar, restar, multiplicar y dividir. Hecha con JavaScript y React."
                 tech="HTML"
@@ -121,8 +120,8 @@ export default function Home() {
                 tech4="React"
                 weblink="http://ericsalat.com/calculadora/"
                 githublink="https://github.com/EricSalat/calculadora"
-              />
-              <Project
+              /> */}
+              {/* <Project
                 title="Reserva entradas de cine"
                 description="Una app para comprar entradas de cine. Selecciona la película, los asientos y la cantidad de tickets. Hay descuentos entre semana."
                 tech="HTML"
@@ -130,7 +129,7 @@ export default function Home() {
                 tech3="JavaScript"
                 tech4="React"
                 githublink="https://github.com/EricSalat/Selector-Asientos"
-              />
+              /> */}
             </div>
           </section>
           <section id="next">
