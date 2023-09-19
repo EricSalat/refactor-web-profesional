@@ -9,20 +9,6 @@ import NumberedHeading from '../../components/Numbered-Heading/Numbered-Heading'
 
 export default function Trabajos(props) {
 
-  const [digitalResponse, setDigitalResponse] = useState(true)
-  const [arian, setArian] = useState(false);
-  const [poliedric, setPoliedric] = useState(false);
-  const [ainkaa, setAinkaa] = useState(false);
-  const [adiplus, setAdiplus] = useState(false);
-  const [diariAra, setDiariAra] = useState(false);
-
-  const [digitalResponseTab, setDigitalResponseTab] = useState(true)
-  const [arianTab, setArianTab] = useState(false);
-  const [poliedricTab, setPoliedricTab] = useState(false);
-  const [ainkaaTab, setAinkaaTab] = useState(false);
-  const [adiPlusTab, setAdiPlusTab] = useState(false);
-  const [diariAraTab, setDiariAraTab] = useState(false);
-
   const [activeTab, setActiveTab] = useState("digitalResponse");
 
   const tabData = [
