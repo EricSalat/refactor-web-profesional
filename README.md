@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bienvenido a mi página profesional como desarrollador web
 
-## Getting Started
+Aquí encontrarás información sobre quién soy, mi trayectoria profesional, los lenguajes de programación y frameworks que uso, las empresas en las que he trabajado y proyectos que he codeado. También puedes ver mi currículum en [mi perfil de Linkedin](https://www.linkedin.com/in/eric-salat/).
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+La página está desarrollada con React, Next.js y desplegada en Vercel.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Vista previa**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![imagen](https://github.com/EricSalat/refactor-web-profesional/assets/70376693/3b56eb15-ca79-461e-8ce6-ebfe34f30ab6)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Cómo Instalar y Ejecutar en Local
 
-To learn more about Next.js, take a look at the following resources:
+Si deseas ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clona el repositorio en tu computadora local utilizando el siguiente comando en tu terminal:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  ```bash
+   git clone https://github.com/EricSalat/refactor-web-profesional
+  ```
 
-## Deploy on Vercel
+2. Asegúrate de tener Node.js instalado en tu computadora. Si no lo tienes, puedes descargarlo desde el [sitio web oficial de Node.js](https://nodejs.org/).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Entra a la carpeta del proyecto:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  ```bash
+  cd refactor-web-profesional
+  ```
+
+4. Instala las dependencias del proyecto ejecutando el siguiente comando:
+
+  ```bash
+  npm install
+  ```
+5. Una vez que las dependencias se hayan instalado correctamente, puedes ejecutar el proyecto localmente con el siguiente comando:
+  
+  ```bash
+  npm run dev
+  ```
+
+Esto iniciará un servidor de desarrollo local. Abre tu navegador web y accede a http://localhost:3000 para ver la página web en tu máquina.
+
+## Contribuciones
+¡Las contribuciones son bienvenidas! Si encuentras oportunidades de mejora en el código o tienes ideas para nuevas características, no dudes en abrir una pull request o informar de problemas.
+
+Gracias por visitar mi repositorio y explorar mi trabajo como desarrollador web.
