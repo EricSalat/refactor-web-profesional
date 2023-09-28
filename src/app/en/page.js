@@ -52,7 +52,7 @@ export default function HomeEnglish() {
                     <li>CSS</li>
                     <li>Bootstrap</li>
                     <li>SASS</li>
-                    <li>JavaScript (ES6+)</li>
+                    <li>JavaScript</li>
                     <li>React</li>
                     <li>PHP</li>
                     <li>Google Ads</li>
@@ -99,25 +99,6 @@ export default function HomeEnglish() {
                 tech4="PHP"
                 weblink="https://arianinternational.eu/"
                 githublink="https://arianinternational.eu/"
-              />
-              <Project
-                title="Calculator"
-                description="A basic calculator for your phone. You can do addition, subtraction, multiplication and division. Made with JavaScript and React."
-                tech="HTML"
-                tech2="CSS"
-                tech3="JavaScript"
-                tech4="React"
-                weblink="http://ericsalat.com/calculadora/"
-                githublink="https://github.com/EricSalat/calculadora"
-              />
-              <Project
-                title="Book cinema tickets"
-                description="An app to buy cinema tickets. Select the movie, the seats and the amount of tickets. There are discounts during the weekdays."
-                tech="HTML"
-                tech2="CSS"
-                tech3="JavaScript"
-                tech4="React"
-                githublink="https://github.com/EricSalat/Selector-Asientos"
               />
             </div>
           </section>

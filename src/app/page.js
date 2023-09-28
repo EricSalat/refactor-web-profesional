@@ -75,25 +75,6 @@ export default function Home() {
                 weblink="https://arianinternational.eu/"
                 githublink="https://arianinternational.eu/"
               />
-              {/* <Project
-                title="Calculadora"
-                description="Una calculadora para el móvil que permite sumar, restar, multiplicar y dividir. Hecha con JavaScript y React."
-                tech="HTML"
-                tech2="CSS"
-                tech3="JavaScript"
-                tech4="React"
-                weblink="http://ericsalat.com/calculadora/"
-                githublink="https://github.com/EricSalat/calculadora"
-              /> */}
-              {/* <Project
-                title="Reserva entradas de cine"
-                description="Una app para comprar entradas de cine. Selecciona la película, los asientos y la cantidad de tickets. Hay descuentos entre semana."
-                tech="HTML"
-                tech2="CSS"
-                tech3="JavaScript"
-                tech4="React"
-                githublink="https://github.com/EricSalat/Selector-Asientos"
-              /> */}
             </div>
           </section>
           <section id="next">

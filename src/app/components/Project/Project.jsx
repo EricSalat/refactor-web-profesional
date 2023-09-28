@@ -30,7 +30,7 @@ function Project(props) {
             <a href={props.weblink}>
               <h3>{props.title}</h3>
             </a>
-            <p>{props.description}</p>
+            <p className="project-description">{props.description}</p>
           </div>
           <footer>
             <ul>
