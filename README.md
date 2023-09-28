@@ -7,6 +7,8 @@ Aquí encontrarás información sobre quién soy, mi trayectoria profesional, lo
 
 La página está desarrollada con React, Next.js y desplegada en Vercel.
 
+Accede en [www.ericsalat.com](https://www.ericsalat.com)
+
 **Vista previa**
 
 ![imagen](https://github.com/EricSalat/refactor-web-profesional/assets/70376693/3b56eb15-ca79-461e-8ce6-ebfe34f30ab6)
