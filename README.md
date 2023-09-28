@@ -1,4 +1,6 @@
-# Bienvenido a mi página profesional como desarrollador web
+# Portfolio - Èric Salat
+
+Bienvenido a mi página profesional como desarrollador web
 
 Aquí encontrarás información sobre quién soy, mi trayectoria profesional, los lenguajes de programación y frameworks que uso, las empresas en las que he trabajado y proyectos que he codeado. También puedes ver mi currículum en [mi perfil de Linkedin](https://www.linkedin.com/in/eric-salat/).
 
