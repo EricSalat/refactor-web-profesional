@@ -36,7 +36,7 @@ export default function Trabajos(props) {
         <FichaTrabajo
           id="arian-description"
           role="Frontend Developer"
-          period="July - October 2022"
+          period="Julio - Octubre 2022"
           company="Arian International Projects"
           href="https://arianinternational.eu/"
           duty1="Desarrollé sitios web utilizando HTML, CSS y JavaScript, asegurando un código de alta calidad y funcionalidad."
@@ -71,7 +71,7 @@ export default function Trabajos(props) {
           id="ainkaa-description"
           role="Desarrollador de Front-end & Project Manager"
           company="Ainkaa"
-          period="March 2021 - Present"
+          period="Marzo 2021 - Actualidad"
           duty1="Programa de creación de start-ups dirigido a jóvenes para crear una app móvil viable donde se realizó:"
           duty2="Programación en HTML, CSS, Javascript y React. Diseño UX UI. Diseño de prototipos con Figma."
           duty3="Creación de planes de empresa, de negocio y viabilidad. Realización de plan de marketing e investigación de mercados."

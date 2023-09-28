@@ -116,7 +116,7 @@ export default function Jobs(props) {
   
   return (
     <>
-      <NumberedHeading texto="Donde he trabajado" />
+      <NumberedHeading texto="Where I've worked" />
       <div className="jobs">
         <div className="jobs-slider">
           {tabData.map((tab) => (
