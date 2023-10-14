@@ -49,6 +49,15 @@ export default function Home() {
             <NumberedHeading texto="Cosas que he programado"/>
             <div className="projects-section">
               <Project
+                title="Hitmakers"
+                description="Aplicación estilo Spotify de una productora de música para promocionar el álbum de la cantante Tessa Violet"
+                tech="JavaScript"
+                tech2="React"
+                tech3="Vite"
+                weblink="https://hitmakers.vercel.app/"
+                githublink="https://github.com/EricSalat/music-promoter"
+              />
+              <Project
                 title="Crypto stocks"
                 description="Pantalla principal de una app de inversiones de criptomonedas. Ve el balance de tus stocks."
                 tech="HTML"

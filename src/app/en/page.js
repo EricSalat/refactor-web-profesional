@@ -73,6 +73,15 @@ export default function HomeEnglish() {
           <section id="works">
             <NumberedHeading texto="Some Things I’ve Built"/>
             <div className="projects-section">
+            <Project
+                title="Hitmakers"
+                description="A Spotify-style app from a music producer to promote the album of the singer Tessa Violet"
+                tech="JavaScript"
+                tech2="React"
+                tech3="Vite"
+                weblink="https://hitmakers.vercel.app/"
+                githublink="https://github.com/EricSalat/music-promoter"
+              />
               <Project
                 title="Crypto stocks"
                 description="Main screen of a cryptocurrency investment app. See the balance of your stocks."
