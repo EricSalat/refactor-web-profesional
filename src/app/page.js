@@ -1,18 +1,16 @@
 'use client'
-import Image from 'next/image'
 import { useState } from 'react';
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
 import About from './components/About/About';
 import Button from "./components/Button/Button";
-import NumberedHeading from './components/Numbered-Heading/Numbered-Heading';
-import FotoEric from "../../public/eric_salat.jpg";
-import Project from "./components/Project/Project";
-import Trabajos from './components/Trabajos/Trabajos';
-import LeftAside from './components/Asides/LeftAside';
-import RightAside from './components/Asides/RightAside';
-import MenuMobile from './components/Header/MenuMobile';
 import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import LeftAside from './components/Asides/LeftAside';
+import MenuMobile from './components/Header/MenuMobile';
+import NumberedHeading from './components/Numbered-Heading/Numbered-Heading';
+import Project from "./components/Project/Project";
+import RightAside from './components/Asides/RightAside';
+import Trabajos from './components/Trabajos/Trabajos';
 
 export default function Home() {
 
@@ -73,6 +71,7 @@ export default function Home() {
                 tech="JavaScript"
                 tech2="React"
                 tech3="Next.js"
+                weblink="https://ericsalat.com"
                 githublink="https://github.com/EricSalat/refactor-web-profesional"
               />
               <Project

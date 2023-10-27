@@ -1,8 +1,8 @@
 import * as React from "react";
 import "./Project.css";
 import { FcOpenedFolder } from "react-icons/fc";
+// import { FiFolder } from "react-icons/fi";
 import { RiShareBoxLine, RiGithubLine } from "react-icons/ri";
-import { FiFolder } from "react-icons/fi";
 
 
 function Project(props) {

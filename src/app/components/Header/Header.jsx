@@ -1,12 +1,12 @@
 import * as React from "react";
-import Image from 'next/image'
 import "./Header.css";
 import 'animate.css';
 import Button from "../Button/Button";
+import Image from 'next/image'
+import Link from "next/link";
 import logo from "../../../../public/logo.png";
 import { BiMenuAltRight } from "react-icons/bi";
 import { HiLanguage } from "react-icons/hi2";
-import Link from "next/link";
 
 
 

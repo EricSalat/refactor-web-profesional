@@ -1,7 +1,7 @@
 import * as React from "react";
-import { SlSocialLinkedin } from "react-icons/sl";
 import { HiOutlineMail } from "react-icons/hi";
 import { RiGithubLine } from "react-icons/ri";
+import { SlSocialLinkedin } from "react-icons/sl";
 
 function Footer() {
   return(

@@ -49,17 +49,15 @@ export default function HomeEnglish() {
                 <div>
                   <ul className="skills-list">
                     <li>HTML</li>
-                      <li>CSS</li>
-                      <li>Bootstrap</li>
-                      <li>SASS</li>
-                      <li>JavaScript</li>
-                      <li>React</li>
-                      <li>Next.js</li>
-                      <li>Vue</li>
-                      <li>Figma</li>
-                      <li>Adobe XD</li>
-                      <li>Storybook</li>
-                      <li>Astro</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>SASS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>Next.js</li>
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
                   </ul>
                 </div>
               </div>

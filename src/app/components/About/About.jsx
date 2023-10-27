@@ -1,7 +1,7 @@
 import * as React from "react";
-import NumberedHeading from "../Numbered-Heading/Numbered-Heading";
-import Image from "next/image";
 import FotoEric from "../../../../public/eric_salat.jpg";
+import Image from "next/image";
+import NumberedHeading from "../Numbered-Heading/Numbered-Heading";
 
 export default function About() {
     return(
@@ -19,13 +19,11 @@ export default function About() {
                       <li>Bootstrap</li>
                       <li>SASS</li>
                       <li>JavaScript</li>
+                      <li>TypeScript</li>
                       <li>React</li>
                       <li>Next.js</li>
-                      <li>Vue</li>
                       <li>Figma</li>
                       <li>Adobe XD</li>
-                      <li>Storybook</li>
-                      <li>Astro</li>
                     </ul>
                   </div>
                 </div>
