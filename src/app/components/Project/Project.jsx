@@ -2,7 +2,7 @@ import * as React from "react";
 import "./Project.css";
 import { FcOpenedFolder } from "react-icons/fc";
 // import { FiFolder } from "react-icons/fi";
-import { RiShareBoxLine, RiGithubLine } from "react-icons/ri";
+import { RiShareBoxLine, RiGithubLine, RiGitCommitLine } from "react-icons/ri";
 
 
 function Project(props) {
@@ -10,17 +10,20 @@ function Project(props) {
       <div>
         <div className="project-card">
           <header className="project-top">
-            <div>
+            <div className="project-top-commits">
               <a href={props.weblink} target="_blank">
-                <FcOpenedFolder />
+                {/* <FcOpenedFolder /> */}
+                <RiGitCommitLine style={{color: "var(--verde)"}} />
               </a>
+
+              <p>{props.commits} X commits</p>
             </div>
             <div>
               <a href={props.githublink} target="_blank">
                 <RiGithubLine size="27.5" style={{marginRight: 10}} />
               </a>
               <a href={props.weblink} target="_blank">
-                <RiShareBoxLine size="27"/>
+                <RiShareBoxLine size="27" />
               </a>
               
             </div>
@@ -34,10 +37,10 @@ function Project(props) {
           </div>
           <footer>
             <ul>
-              <li>{props.tech}</li>
-              <li>{props.tech2}</li>
-              <li>{props.tech3}</li>
-              <li>{props.tech4}</li>
+              <li>{props.tech[0]}</li>
+              <li>{props.tech[1]}</li>
+              <li>{props.tech[2]}</li>
+              <li>{props.tech[3]}</li>
             </ul>
           </footer>
         </div>

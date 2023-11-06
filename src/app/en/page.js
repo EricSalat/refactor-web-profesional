@@ -72,6 +72,15 @@ export default function HomeEnglish() {
             <NumberedHeading texto="Some Things I’ve Built"/>
             <div className="projects-section">
             <Project
+                title="Github Repositories"
+                description="Web application where you can consult the GitHub repositories of a particular user according to the title and programming language."
+                tech="TypeScript"
+                tech2="React"
+                tech3="Vite"
+                weblink="https://github-repositories-omega.vercel.app/"
+                githublink="https://github.com/EricSalat/github-repositories"
+              />
+            <Project
                 title="Hitmakers"
                 description="A Spotify-style app from a music producer to promote the album of the singer Tessa Violet"
                 tech="JavaScript"
