@@ -1,22 +1,25 @@
 import * as React from "react";
 import "./Project.css";
+import { IconContext } from "react-icons";
 import { FcOpenedFolder } from "react-icons/fc";
+import { RiShareBoxLine, RiGithubLine, RiGitCommitLine, RiFolderOpenLine } from "react-icons/ri";
 // import { FiFolder } from "react-icons/fi";
-import { RiShareBoxLine, RiGithubLine, RiGitCommitLine } from "react-icons/ri";
 
 
 function Project(props) {
     return(
+      <IconContext.Provider value={{className: "green-hover"}}>
       <div>
         <div className="project-card">
           <header className="project-top">
             <div className="project-top-commits">
               <a href={props.weblink} target="_blank">
+                <RiFolderOpenLine style={{color: "var(--verde)"}} />
                 {/* <FcOpenedFolder /> */}
-                <RiGitCommitLine style={{color: "var(--verde)"}} />
+                {/* <RiGitCommitLine style={{color: "var(--verde)"}} /> */}
               </a>
 
-              <p>{props.commits} X commits</p>
+              {/* <p>{props.commits} X commits</p> */}
             </div>
             <div>
               <a href={props.githublink} target="_blank">
@@ -45,6 +48,7 @@ function Project(props) {
           </footer>
         </div>
       </div>
+      </IconContext.Provider>
     );
 }
 

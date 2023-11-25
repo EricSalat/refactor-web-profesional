@@ -89,3 +89,7 @@
 .project-description {
   height: 100px;
 }
+
+.green-hover:hover {
+  color: var(--verde);
+}
