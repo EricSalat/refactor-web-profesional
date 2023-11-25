@@ -6,6 +6,7 @@ import Button from "../components/Button/Button";
 import NumberedHeading from '../components/Numbered-Heading/Numbered-Heading';
 import FotoEric from "/public/eric_salat.jpg";
 import Project from "../components/Project/Project";
+import ProjectsLayoutEN from './components/ProjectsLayoutEN';
 import Jobs from './components/Jobs';
 import LeftAside from '../components/Asides/LeftAside';
 import RightAside from '../components/Asides/RightAside';
@@ -70,55 +71,7 @@ export default function HomeEnglish() {
           </section>
           <section id="works">
             <NumberedHeading texto="Some Things I’ve Built"/>
-            <div className="projects-section">
-            <Project
-                title="Github Repositories"
-                description="Web application to search a particular user's GitHub repositories by title and programming language"
-                tech="TypeScript"
-                tech2="React"
-                tech3="Vite"
-                weblink="https://github-repositories-omega.vercel.app/"
-                githublink="https://github.com/EricSalat/github-repositories"
-              />
-            <Project
-                title="Hitmakers"
-                description="A Spotify-style app from a music producer to promote the album of the singer Tessa Violet"
-                tech="JavaScript"
-                tech2="React"
-                tech3="Vite"
-                weblink="https://hitmakers.vercel.app/"
-                githublink="https://github.com/EricSalat/music-promoter"
-              />
-              <Project
-                title="Crypto stocks"
-                description="Main screen of a cryptocurrency investment app. See the balance of your stocks."
-                tech="HTML"
-                tech2="CSS"
-                tech3="JavaScript"
-                tech4="React"
-                weblink="https://www.ericsalat.com/kelisto/"
-                githublink="https://github.com/EricSalat/kelisto-ejercicio-tecnico"
-              />
-              <Project
-                title="Professional website"
-                description="Check the code of this site, my professional web, made with HTML, CSS, JavaScript and React."
-                tech="HTML"
-                tech2="CSS"
-                tech3="JavaScript"
-                tech4="Next.js"
-                githublink="https://github.com/EricSalat/web-profesional"
-              />
-              <Project
-                title="Arian International"
-                description="UX/UI redesign of the cooperative website. Implemented responsive design and improved performance."
-                tech="HTML"
-                tech2="CSS"
-                tech3="Wordpress"
-                tech4="PHP"
-                weblink="https://arianinternational.eu/"
-                githublink="https://arianinternational.eu/"
-              />
-            </div>
+            <ProjectsLayoutEN />
           </section>
           <section id="next">
             <p>04. What’s Next?</p>

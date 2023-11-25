@@ -118,22 +118,22 @@ export default function Trabajos(props) {
   return (
     <>
     <NumberedHeading texto="Donde he trabajado" />
-    <div className="jobs">
-      <div className="jobs-slider">
-        {tabData.map((tab) => (
-          <TabButton
-            key={tab.id}
-            text={tab.text}
-            class={activeTab === tab.id ? "tab-button-active" : "tab-button-inactive"}
-            id={tab.id}
-            onclick={() => setActiveTab(tab.id)}
-          />
-        ))}
+      <div className="jobs">
+        <div className="jobs-slider">
+          {tabData.map((tab) => (
+            <TabButton
+              key={tab.id}
+              text={tab.text}
+              class={activeTab === tab.id ? "tab-button-active" : "tab-button-inactive"}
+              id={tab.id}
+              onclick={() => setActiveTab(tab.id)}
+              />
+              ))}
+        </div>     
+        {tabData.map((tab) =>
+          tab.id === activeTab ? tab.component : null
+        )}
       </div>
-      {tabData.map((tab) =>
-        tab.id === activeTab ? tab.component : null
-      )}
-    </div>
   </>
   );
 }
