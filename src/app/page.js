@@ -51,7 +51,8 @@ export default function Home() {
           <section id="next">
             <p>04. ¿Ahora qué?</p>
             <p>Sigamos en contacto</p>
-            <p>Si tienes alguna propuesta o consulta, no dudes en contactarme. ¡Te responderé lo más rápido posible!</p>
+            <p>Si tienes alguna propuesta o consulta, no dudes en contactarme. 
+              <br></br>¡Te responderé lo más rápido posible!</p>
             <Button
               className="know-me-button"
               texto="Contacto" href="mailto:ericsalatb@gmail.com" />

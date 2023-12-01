@@ -1,40 +1,20 @@
-/* .projects-section {
-  display: grid;
-  gap: 1rem;
-  grid-auto-rows: 22rem;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-}
-
-.project-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #112240;
-  height: auto;
-  max-width: 300px;
-  min-height: 315px;
-  padding: 2rem 1.75rem;
-  border-radius: var(--borderRadius);
-} */
-
 .projects-section {
   display: grid;
-  gap: 20px; /* Reducido el espacio entre las tarjetas para evitar solapamientos */
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  justify-items: center; /* Centra las tarjetas horizontalmente */
-  align-items: stretch; /* Ajusta la altura de las tarjetas según la más alta */
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center; 
+  align-items: stretch;
 }
 
 .project-card {
   display: flex;
   flex-direction: column;
   background-color: #112240;
-  max-width: 315px;
+  min-width: 300px;
   min-height: 300px;
   padding: 2rem 1.75rem;
   border-radius: var(--borderRadius);
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra para resaltar las tarjetas */
-  /* overflow: hidden; */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .project-top {

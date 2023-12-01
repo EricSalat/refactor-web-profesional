@@ -11,7 +11,7 @@ export default function Hero() {
             <h2 className="big-heading animate__animated animate__fadeIn animate__delay-1s"> Y programo aplicaciones web.
             </h2>
             <p className="animate__animated animate__fadeIn animate__delay-1s">
-            Soy Frontend Developer con experiencia en marketing digital y me dedico a crear aplicaciones desde el principio hasta el final: empezando por la concepción de la idea de negocio, pasando por el desarrollo, hasta llegar a la monetización.
+            Soy <span lang="en">Frontend Developer</span> con experiencia en marketing digital y me dedico a crear aplicaciones desde el principio hasta el final: empezando por la concepción de la idea de negocio, pasando por el desarrollo, hasta llegar a la monetización.
             </p>
             <Button
                 texto="Haz clic para conocerme"
