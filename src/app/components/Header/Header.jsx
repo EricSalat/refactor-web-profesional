@@ -27,7 +27,7 @@ function Header(props) {
               
               <Button
                 texto="Currículum"
-                href="/CV_ERIC_SALAT_2023_ES.pdf"
+                href="/CV_ERIC_SALAT_2024_ES.pdf"
                 target="_blank"
                 className="header-button"
               />

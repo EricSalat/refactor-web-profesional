@@ -35,6 +35,7 @@ export default function Home() {
         works="Trabajos"
         next="Contacto" 
         onclick={menuIconClick} />
+    
 
       <main>
           <Hero />
@@ -44,6 +45,7 @@ export default function Home() {
           <section id="experience">
             <Trabajos />
           </section>
+         
           <section id="works">
             <NumberedHeading texto="Cosas que he programado"/>
             <ProjectsLayout />
