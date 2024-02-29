@@ -1,0 +1,20 @@
+{
+    "HEADER": {
+        "about": "About",
+        "experience":"Experience",
+        "works": "Works",
+        "next": "Contact"
+    },
+    "HERO": {
+        "welcome": "Hi, my name is",
+        "subtitle": "I build web applications.",
+        "introduction": "I’m a Frontend Developer with experience in digital marketing.<br></br>I create applications from the beginning to the end: the business idea, the design, the development and the monetization.",
+        "button": "Click to know me"
+    },
+    "ABOUT": {
+        "title": "About Me",
+        "description1": "Hi! My name is Èric, I live in Barcelona and I enjoy creating things that live on the internet. Everything started in 2020 when I enrolled in a program for young people to learn how to make mobile apps and found tech start ups. There I started seriously in software development.",
+        "description2": "I am a hybrid profile. I studied marketing and communication in the University and I combine this knowledge with my coding skills to improve the development and have a global vision of the projects. Therefore, I focus my websites to improve the conversion rate of leads and sales.",
+        "description3": "Here are a few technologies I’ve been working with recently:"    
+    }
+}
