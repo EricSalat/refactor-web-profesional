@@ -1,19 +1,20 @@
 'use client'
 import { useState } from 'react';
-import About from './components/About/About';
-import Button from "./components/Button/Button";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import LeftAside from './components/Asides/LeftAside';
-import MenuMobile from './components/Header/MenuMobile';
-import NumberedHeading from './components/Numbered-Heading/Numbered-Heading';
-import Project from "./components/Project/Project";
-import ProjectsLayout from './components/Project/ProjectsLayout';
-import RightAside from './components/Asides/RightAside';
-import Trabajos from './components/Trabajos/Trabajos';
+import {useTranslations} from 'next-intl';
+import About from '../components/About/About';
+import Button from "../components/Button/Button";
+import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
+import Hero from "../components/Hero/Hero";
+import LeftAside from '../components/Asides/LeftAside';
+import MenuMobile from '../components/Header/MenuMobile';
+import NumberedHeading from '../components/Numbered-Heading/Numbered-Heading';
+import ProjectsLayout from '../components/Project/ProjectsLayout';
+import RightAside from '../components/Asides/RightAside';
+import Trabajos from '../components/Trabajos/Trabajos';
 
 export default function Home() {
+  const t = useTranslations('HERO');
 
   const [menuCollapse, setMenuCollapse] = useState(false);
   const menuIconClick = () => {
@@ -30,7 +31,7 @@ export default function Home() {
           null
         )}
       <Header 
-        about="Sobre mi"
+        about="Sobre mixxx"
         experience="Experiencia"
         works="Trabajos"
         next="Contacto" 
@@ -52,6 +53,7 @@ export default function Home() {
           </section>
           <section id="next">
             <p>04. ¿Ahora qué?</p>
+            <p>{t('welcome')}</p>
             <p>Sigamos en contacto</p>
             <p>Si tienes alguna propuesta o consulta, no dudes en contactarme. 
               <br></br>¡Te responderé lo más rápido posible!</p>
