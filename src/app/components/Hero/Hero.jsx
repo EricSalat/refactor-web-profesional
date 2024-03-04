@@ -1,20 +1,22 @@
 import * as React from "react";
 import Button from "../Button/Button";
+import {useTranslations} from 'next-intl';
 
 export default function Hero() {
+    const t = useTranslations('HERO');
     return(
         <section id="hero">
             <p className="mini-heading animate__animated animate__fadeIn animate__delay-1s">
-                Hola, me llamo 
+                {t('welcome')} 
             </p>
             <h1 className="big-heading animate__animated animate__fadeIn animate__delay-1s">Èric Salat.</h1>
-            <h2 className="big-heading animate__animated animate__fadeIn animate__delay-1s"> Y programo aplicaciones web.
+            <h2 className="big-heading animate__animated animate__fadeIn animate__delay-1s"> {t('subtitle')} 
             </h2>
             <p className="animate__animated animate__fadeIn animate__delay-1s">
-            Soy <span lang="en">Frontend Developer</span> con experiencia en marketing digital y me dedico a crear aplicaciones desde el principio hasta el final: empezando por la concepción de la idea de negocio, pasando por el desarrollo, hasta llegar a la monetización.
+            {t('introduction')}<br></br> {t('introduction-afterbr')}
             </p>
             <Button
-                texto="Haz clic para conocerme"
+                texto={t('button')} 
                 className="know-me-button animate__animated animate__fadeInUp animate__delay-1s"
                 href="#about"
             />

@@ -12,9 +12,10 @@ import NumberedHeading from '../components/Numbered-Heading/Numbered-Heading';
 import ProjectsLayout from '../components/Project/ProjectsLayout';
 import RightAside from '../components/Asides/RightAside';
 import Trabajos from '../components/Trabajos/Trabajos';
+import Contact from '../components/Contact/Contact';
 
 export default function Home() {
-  const t = useTranslations('HERO');
+  const t = useTranslations('HOME');
 
   const [menuCollapse, setMenuCollapse] = useState(false);
   const menuIconClick = () => {
@@ -31,12 +32,7 @@ export default function Home() {
           null
         )}
       <Header 
-        about="Sobre mixxx"
-        experience="Experiencia"
-        works="Trabajos"
-        next="Contacto" 
         onclick={menuIconClick} />
-    
 
       <main>
           <Hero />
@@ -48,19 +44,10 @@ export default function Home() {
           </section>
          
           <section id="works">
-            <NumberedHeading texto="Cosas que he programado"/>
+            <NumberedHeading texto={t('works-header')}/>
             <ProjectsLayout />
           </section>
-          <section id="next">
-            <p>04. ¿Ahora qué?</p>
-            <p>{t('welcome')}</p>
-            <p>Sigamos en contacto</p>
-            <p>Si tienes alguna propuesta o consulta, no dudes en contactarme. 
-              <br></br>¡Te responderé lo más rápido posible!</p>
-            <Button
-              className="know-me-button"
-              texto="Contacto" href="mailto:ericsalatb@gmail.com" />
-          </section>
+          <Contact />
         </main>
         <Footer />
     </div>

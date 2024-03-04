@@ -7,11 +7,12 @@ import Link from "next/link";
 import logo from "../../../../public/logo.png";
 import { BiMenuAltRight } from "react-icons/bi";
 import { HiLanguage } from "react-icons/hi2";
+import { useTranslations } from 'next-intl';
 
 
 
 function Header(props) {
-
+  const t = useTranslations('HEADER');
   return (
     <header>
       <nav className="animate__animated animate__fadeInDown animate__delay-2s">
@@ -20,14 +21,14 @@ function Header(props) {
            </Link>
           <div className="contenedor-menu">
             <ol>
-              <li><a href="#about">{props.about}</a></li>
-              <li><a href="#experience">{props.experience}</a></li>
-              <li><a href="#works">{props.works}</a></li>
-              <li><a href="#next">{props.next}</a></li> 
+              <li><a href="#about">{t('about')}</a></li>
+              <li><a href="#experience">{t('experience')}</a></li>
+              <li><a href="#works">{t('works')}</a></li>
+              <li><a href="#next">{t('next')} </a></li> 
               
               <Button
-                texto="Currículum"
-                href="/CV_ERIC_SALAT_2024_ES.pdf"
+                texto={t('cv')}
+                href={t('cv-file')}
                 target="_blank"
                 className="header-button"
               />

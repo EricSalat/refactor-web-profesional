@@ -1,13 +1,14 @@
 import * as React from "react";
+import {useTranslations} from 'next-intl';
 import "./Header.css";
 import Button from "../Button/Button";
 import { IoIosClose } from "react-icons/io";
 import { HiLanguage } from "react-icons/hi2";
-import { useState } from "react";
 import Link from "next/link";
 
 
 function MenuMobile({onClick}) {
+  const t = useTranslations('HEADER');
 
   return(
       <div className="mobile-menu-modal animate__animated animate__fadeInRightBig animate__faster" >
@@ -18,14 +19,14 @@ function MenuMobile({onClick}) {
             </div>
             <div className="mobile-menu-bottom">
               <ul>
-                <li><a onClick={onClick} href="#about">Sobre mi</a></li>
-                <li><a onClick={onClick} href="#experience">Experiencia</a></li>
-                <li><a onClick={onClick} href="#works">Trabajos</a></li>
-                <li><a onClick={onClick} href="#next">Contacto</a></li>
+                <li><a onClick={onClick} href="#about">{t('about')}</a></li>
+                <li><a onClick={onClick} href="#experience">{t('experience')}</a></li>
+                <li><a onClick={onClick} href="#works">{t('works')}</a></li>
+                <li><a onClick={onClick} href="#next">{t('next')}</a></li>
               </ul>
               <Button
-              texto="Currículum"
-              href="/CV_ERIC_SALAT_2024_ES.pdf"
+              texto={t('cv')}
+              href={t('cv-file')}
               target="_blank"
               className="know-me-button"
             />

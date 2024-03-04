@@ -2,33 +2,36 @@ import * as React from "react";
 import FotoEric from "../../../../public/eric_salat.jpg";
 import Image from "next/image";
 import NumberedHeading from "../Numbered-Heading/Numbered-Heading";
+import {useTranslations} from 'next-intl';
 
 export default function About() {
+  const t = useTranslations('ABOUT');
+
     return(
         <>
-        <NumberedHeading texto="Sobre mi" />
+        <NumberedHeading texto={t('title')} />
               <div className="about-me">
                 <div className="about-me-text">
-                  <p>Hola! Me llamo Èric, vivo en Barcelona y me encanta crear cosas que vivan en Internet. Todo empezó en el año 2020 cuando me uní a un programa para que jóvenes aprendieran a crear aplicaciones móviles y emprendieran sus startups tecnológicas. Allí me metí de lleno a aprender desarrollo web.</p>
-                  <p>En la universidad estudié comunicación y marketing, que combinados con mis conocimientos en programación, me permiten ser un perfil híbrido con una visión transversal de los proyectos. Por ello, enfoco el Frontend no solo al desarrollo, sino en la mejora de embudos de tráfico y la conversión de leads y ventas.</p>
-                  <p>Estas son las tecnologías con las que he estado trabajando:</p>
+                  <p>{t('description1')}</p>
+                  <p>{t('description2')}</p>
+                  <p>{t('description3')}</p>
                   <div>
                     <ul className="skills-list">
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>Bootstrap</li>
-                      <li>SASS</li>
+                      <li>Tailwind</li>
                       <li>JavaScript</li>
                       <li>TypeScript</li>
                       <li>React</li>
                       <li>Next.js</li>
+                      <li>Astro</li>
                       <li>Figma</li>
-                      <li>Adobe XD</li>
                     </ul>
                   </div>
                 </div>
                   <Image
-                   src={FotoEric} height="300" width="300" alt="Retrato de Èric Salat" title="Retrato de Èric Salat" />
+                   src={FotoEric} height="300" width="300" alt={t('image_alt')} title={t('image_alt')} />
               </div>     
         </>
     );

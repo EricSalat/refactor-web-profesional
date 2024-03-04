@@ -4,12 +4,14 @@ import { useState } from "react";
 import TabButton from '../../components/TabButton/TabButton';
 import FichaTrabajo from './FichaTrabajo/FichaTrabajo';
 import NumberedHeading from '../../components/Numbered-Heading/Numbered-Heading';
+import {useTranslations} from 'next-intl';
 
 
 
 export default function Trabajos(props) {
 
   const [activeTab, setActiveTab] = useState("digitalResponse");
+  const t = useTranslations('JOBS');
 
   const tabData = [
     {
@@ -18,14 +20,14 @@ export default function Trabajos(props) {
       component: (
         <FichaTrabajo
           id="digital-description"
-          role="Frontend and Email Developer"
+          role={t("digital_response_role")}
           href="https://www.digitalresponse.es/"
           company="Digital Response"
-          period="Enero 2023 - Actualidad"
-          duty1="Implementé diseños de campañas de correo electrónico utilizando HTML, CSS y JavaScript para CaixaBank."
-          duty2="Desarrollé programación responsiva para asegurar una visualización adecuada en diferentes clientes de correo electrónico. Realicé pruebas con Email on Acid."
-          duty3="Ejecuté diseños detallados y precisos basados en bocetos proporcionados en Figma y Adobe XD."
-          duty4="Publiqué y monitoreé campañas del Customer Journey utilizando Adobe Campaigns."
+          period={t("digital_response_period")}
+          duty1={t("digital_response_duty1")}
+          duty2={t("digital_response_duty2")}
+          duty3={t("digital_response_duty3")}
+          duty4={t("digital_response_duty4")}
         />
       ),
     },
@@ -35,14 +37,14 @@ export default function Trabajos(props) {
       component: (
         <FichaTrabajo
           id="arian-description"
-          role="Frontend Developer"
-          period="Julio - Octubre 2022"
+          role={t("arian_role")}
+          period={t("arian_period")}
           company="Arian International Projects"
           href="https://arianinternational.eu/"
-          duty1="Desarrollé sitios web utilizando HTML, CSS y JavaScript, asegurando un código de alta calidad y funcionalidad."
-          duty2="Implementé técnicas de diseño responsivo para optimizar la visualización del sitio web en diferentes dispositivos y tamaños de pantalla."
-          duty3="Optimicé el tiempo de carga del sitio web, mejorando la experiencia del usuario (UX) y la interfaz de usuario (UI)."
-          duty4="Integré herramientas de medición para rastrear y analizar datos de campañas de marketing digital."
+          duty1={t("arian_duty1")}
+          duty2={t("arian_duty2")}
+          duty3={t("arian_duty3")}
+          duty4={t("arian_duty4")}
         />
       ),
     },
@@ -52,14 +54,14 @@ export default function Trabajos(props) {
       component: (
         <FichaTrabajo
             id="poliedric-description"
-            role="Gestor de campañas SEM & PPC"
+            role={t("poliedric_role")}
             company="Polièdric"
             href="https://poliedric.com/"
-            period="Junio 2021 - Marzo 2022"
-            duty1="Gestión de campañas publicitarias de pago por clic. Elaboración de la estrategia, diseño implementación, medición y análisis de la performance de los anuncios en Google Ads, Facebook Ads, Amazon Ads y Linkedin Ads."
-            duty2="Invertí +10.000€ mensuales en campañas y aumenté el ROI en más del 300% en los negocios de diferentes clientes."
-            duty3="Reuniones frecuentes con clientes para analizar los resultados y redefinir las estrategias de márqueting."
-            duty4="Auditorías SEO de páginas web y diseño de estrategias para mejorar el posicionamiento."
+            period={t("poliedric_period")}
+            duty1={t("poliedric_duty1")}
+            duty2={t("poliedric_duty2")}
+            duty3={t("poliedric_duty3")}
+            duty4={t("poliedric_duty4")}
             />
         )
     },
@@ -69,13 +71,13 @@ export default function Trabajos(props) {
       component: (
         <FichaTrabajo
           id="ainkaa-description"
-          role="Desarrollador de Front-end & Project Manager"
+          role={t("ainkaa_role")}
           company="Ainkaa"
-          period="Marzo 2021 - Actualidad"
-          duty1="Programa de creación de start-ups dirigido a jóvenes para crear una app móvil viable donde se realizó:"
-          duty2="Programación en HTML, CSS, Javascript y React. Diseño UX UI. Diseño de prototipos con Figma."
-          duty3="Creación de planes de empresa, de negocio y viabilidad. Realización de plan de marketing e investigación de mercados."
-          duty4="Elevator pitch y presentación de PMV para la búsqueda de financiación."
+          period={t("ainkaa_period")}
+          duty1={t("ainkaa_duty1")}
+          duty2={t("ainkaa_duty2")}
+          duty3={t("ainkaa_duty3")}
+          duty4={t("ainkaa_duty4")}
           />
       )
     },
@@ -85,14 +87,13 @@ export default function Trabajos(props) {
       component: (
       <FichaTrabajo
           id="adiplus-description"
-          role="Periodista"
-          href="https://www.linkedin.com/company/adiplus-techandcontent/"
+          role={t("adiplus_role")}          href="https://www.linkedin.com/company/adiplus-techandcontent/"
           company="Adiplus Tech & Content"
-          period="Octubre 2019 - Junio 2020"
-          duty1="Redacción y edición de noticias y contenidos para el portal del sector gastronómico Pan&Pizza."
-          duty2="Redacción de artículos para la revista Newspa, el magazine del Gremio de Panaderos de la Provincia de Barcelona."
-          duty3="Redacción de noticias y artículos sobre seguros en Tiempo Seguro."
-          duty4="Diseño e implementación de estrategias de Posicionamiento SEO y campañas de email marketing."
+          period={t("adiplus_period")} 
+          duty1={t("adiplus_duty1")} 
+          duty2={t("adiplus_duty2")} 
+          duty3={t("adiplus_duty3")} 
+          duty4={t("adiplus_duty4")} 
         />
       )
     },
@@ -102,14 +103,14 @@ export default function Trabajos(props) {
       component: (
         <FichaTrabajo
           id="diariara-description"
-          role="Periodista"
+          role={t("diari_ara_role")} 
           href="https://www.ara.cat/"
           company="Diari Ara"
-          period="Septiembre 2018 - Mayo 2019"
-          duty1="Redactor en prácticas de noticias, reportajes, entrevistas y otros contenidos en la sección de cultura sobre temas de música, literatura, cine, teatro y artes visuales."
-          duty2="Cobertura de la actualidad diaria."
-          duty3="Asistencia a ruedas de prensa."
-          duty4="Colaboración puntual con otras secciones."
+          period={t("diari_ara_period")} 
+          duty1={t("diari_ara_duty1")} 
+          duty2={t("diari_ara_duty2")} 
+          duty3={t("diari_ara_duty3")} 
+          duty4={t("diari_ara_duty4")} 
         />
       )
     }

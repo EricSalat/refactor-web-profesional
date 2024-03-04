@@ -1,31 +1,98 @@
 {
-    
+    "HOME": {
+        "works-header": "Cosas que he programado"
+    },
     "HEADER": {
         "about": "Sobre mi",
         "experience":"Experiencia",
         "works": "Trabajos",
-        "next": "Contacto"
+        "next": "Contacto",
+        "cv": "Currículum",
+        "cv-file": "/CV_ERIC_SALAT_2024_ES.pdf"
     },
     "HERO": {
         "welcome": "Hola, me llamo",
         "subtitle": "Y programo aplicaciones web.",
-        "introduction": "Soy </span lang='en'>Frontend Developer</span> con experiencia en marketing digital y me dedico a crear aplicaciones desde el principio hasta el final: empezando por la concepción de la idea de negocio, pasando por el desarrollo, hasta llegar a la monetización.",
+        "introduction": "Soy Frontend Developer con experiencia en marketing digital y me dedico a crear aplicaciones desde el principio hasta el final:",
+        "introduction-afterbr": "empezando por la concepción de la idea de negocio, pasando por el desarrollo, hasta llegar a la monetización.",
         "button": "Haz clic para conocerme"
     },
     "ABOUT": {
         "title": "Sobre mi",
         "description1": "Hola! Me llamo Èric, vivo en Barcelona y me encanta crear cosas que vivan en Internet. Todo empezó en el año 2020 cuando me uní a un programa para que jóvenes aprendieran a crear aplicaciones móviles y emprendieran sus startups tecnológicas. Allí me metí de lleno a aprender desarrollo web.",
         "description2": "En la universidad estudié comunicación y marketing, que combinados con mis conocimientos en programación, me permiten ser un perfil híbrido con una visión transversal de los proyectos. Por ello, enfoco el Front-end no solo al desarrollo, sino en la mejora de embudos de tráfico y la conversión de leads y ventas.",
-        "description3": "Estas son las tecnologías con las que he estado trabajando:"    
+        "description3": "Estas son las tecnologías con las que he estado trabajando:" ,
+        "image_alt": "Retrato de Èric Salat"   
     },
     "JOBS": {
-    
+        "digital_response_role": "Frontend and Email Developer",
+        "digital_response_period": "Enero 2023 - Actualidad",
+        "digital_response_duty1": "Implementé diseños de campañas de correo electrónico utilizando HTML, CSS y JavaScript para CaixaBank.",
+        "digital_response_duty2": "Desarrollé programación responsiva para asegurar una visualización adecuada en diferentes clientes de correo electrónico. Realicé pruebas con Email on Acid.",
+        "digital_response_duty3": "Ejecuté diseños detallados y precisos basados en bocetos proporcionados en Figma y Adobe XD.",
+        "digital_response_duty4": "Publiqué y monitoreé campañas del Customer Journey utilizando Adobe Campaigns.",
+
+        "arian_role": "Frontend Developer",
+        "arian_period": "Julio - Octubre 2022",
+        "arian_duty1": "Desarrollé sitios web utilizando HTML, CSS y JavaScript, asegurando un código de alta calidad y funcionalidad.",
+        "arian_duty2": "Implementé técnicas de diseño responsivo para optimizar la visualización del sitio web en diferentes dispositivos y tamaños de pantalla.",
+        "arian_duty3": "Optimicé el tiempo de carga del sitio web, mejorando la experiencia del usuario (UX) y la interfaz de usuario (UI).",
+        "arian_duty4": "Integré herramientas de medición para rastrear y analizar datos de campañas de marketing digital.",
+
+        "poliedric_role": "Gestor de campañas SEM & PPC",
+        "poliedric_period": "Junio 2021 - Marzo 2022",
+        "poliedric_duty1": "Gestión de campañas publicitarias de pago por clic. Elaboración de la estrategia, diseño implementación, medición y análisis de la performance de los anuncios en Google Ads, Facebook Ads, Amazon Ads y Linkedin Ads.",
+        "poliedric_duty2": "Invertí +10.000€ mensuales en campañas y aumenté el ROI en más del 300% en los negocios de diferentes clientes.",
+        "poliedric_duty3": "Reuniones frecuentes con clientes para analizar los resultados y redefinir las estrategias de márqueting.",
+        "poliedric_duty4": "Auditorías SEO de páginas web y diseño de estrategias para mejorar el posicionamiento.",
+
+        "ainkaa_role": "Desarrollador de Front-end & Project Manager",
+        "ainkaa_period": "Marzo 2021 - Actualidad",
+        "ainkaa_duty1": "Programa de creación de start-ups dirigido a jóvenes para crear una app móvil viable donde se realizó:",
+        "ainkaa_duty2": "Programación en HTML, CSS, Javascript y React. Diseño UX UI. Diseño de prototipos con Figma.",
+        "ainkaa_duty3": "Creación de planes de empresa, de negocio y viabilidad. Realización de plan de marketing e investigación de mercados.",
+        "ainkaa_duty4": "Elevator pitch y presentación de PMV para la búsqueda de financiación.",
+
+        "adiplus_role": "Periodista",
+        "adiplus_period": "Octubre 2019 - Junio 2020",
+        "adiplus_duty1": "Redacción y edición de noticias y contenidos para el portal del sector gastronómico Pan&Pizza.",
+        "adiplus_duty2": "Redacción de artículos para la revista Newspa, el magazine del Gremio de Panaderos de la Provincia de Barcelona.",
+        "adiplus_duty3": "Redacción de noticias y artículos sobre seguros en Tiempo Seguro.",
+        "adiplus_duty4": "Diseño e implementación de estrategias de Posicionamiento SEO y campañas de email marketing.",
+
+        "diari_ara_role": "Periodista",
+        "diari_ara_period": "Septiembre 2018 - Mayo 2019",
+        "diari_ara_duty1": "Redactor en prácticas de noticias, reportajes, entrevistas y otros contenidos en la sección de cultura sobre temas de música, literatura, cine, teatro y artes visuales.",
+        "diari_ara_duty2": "Cobertura de la actualidad diaria.",
+        "diari_ara_duty3": "Asistencia a ruedas de prensa.",
+        "diari_ara_duty4": "Colaboración puntual con otras secciones."
     },
-    "WORKS": {
-        "title": ""
+
+    "PROJECTS": {
+        "github_repo_title": "Github Repositories",
+        "github_repo_description": "Aplicación web donde consultar los repositorios de GitHub de un usuario en particular según el título y el lenguaje de programación.",
+
+        "hitmakers_title": "Hitmakers",
+        "hitmakers_description": "Aplicación estilo Spotify de una productora de música para promocionar el álbum de la cantante Tessa Violet",
+
+        "crypto_title": "Crypto stocks",
+        "crypto_description": "Pantalla principal de una app de inversiones de criptomonedas. Ve el balance de tus stocks.",
+
+        "professional_website_title": "Web profesional",
+        "professional_website_description": "Revisa el código de este mismo sitio, mi web profesional, hecha con HTML, CSS, JavaScript, React y Next.js.",
+        "professional_website_link": "https://ericsalat.com",
+
+        "arian_title": "Web Arian International",
+        "arian_description": "Rediseño de UX/UI de la web corporativa. Implementación de diseño responsive y mejora del rendimiento.",
+        "arian_link": "https://arianinternational.eu/"
+    },
+    "CONTACT": {
+        "p1": "04. ¿Ahora qué?",
+        "p2": "Sigamos en contacto",
+        "p3": "Si tienes alguna propuesta o consulta, no dudes en contactarme.",
+        "p4": "¡Te responderé lo más rápido posible!",
+        "button-text": "Contacto"
     }
-
-
-    
-    
 }
+
+  
