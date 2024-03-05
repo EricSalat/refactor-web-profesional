@@ -10,11 +10,9 @@ header nav {
   position: relative;
 }
 
-header nav ol li {
+header nav ol li, header p {
   display: inline;
   flex-direction: row;
-  /* align-items: baseline; */
-  /* justify-content: baseline; */
   font-family: 'Fira Code','Space Grotesk', sans-serif;
   font-weight: 400;
   color: var(--titulo1);
@@ -46,6 +44,41 @@ header nav ol li:last-child::before {
 header a {
   text-decoration: none !important;
   color: inherit;
+}
+
+.language-menu {
+  font-size: 16px;
+  font-family: 'Fira Code','Space Grotesk', sans-serif;
+  font-weight: 400;
+  color: var(--titulo1);
+  background-color: transparent;
+  border-radius: var(--borderRadius);
+  border: 1px solid transparent;
+  margin-left: 15px;
+  padding: 0.50rem 0.55rem;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.language-menu:hover {
+  border-radius: var(--borderRadius);
+  /* border: 1px solid var(--verde); */
+  color: var(--verde);
+}
+
+.language-menu::before {
+  content: "▾";
+  padding: 0 5px;
+  color: var(--verde);
+}
+
+.dropdown-menu {
+  font-size: 12px;
+  font-family: 'Fira Code','Space Grotesk', sans-serif;
+  font-weight: 400;
+  color: var(--titulo1);
+  background-color: transparent;
+  list-style-type: none;
 }
 
 .contenedor-menu {

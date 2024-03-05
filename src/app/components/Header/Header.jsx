@@ -3,8 +3,10 @@ import "./Header.css";
 import 'animate.css';
 import Button from "../Button/Button";
 import Image from 'next/image'
-import Link from "next/link";
+// import Link from "next/link";
+import {Link} from '../../../navigation';
 import logo from "../../../../public/logo.png";
+import DropdownMenu from "../Header/DropdownMenu";
 import { BiMenuAltRight } from "react-icons/bi";
 import { HiLanguage } from "react-icons/hi2";
 import { useTranslations } from 'next-intl';
@@ -33,12 +35,14 @@ function Header(props) {
                 className="header-button"
               />
             </ol>
-              <Link href="/en">
+              <Link href="/" locale={t('locale')}>
                 <HiLanguage
                   style={{color: "var(--verde)", marginLeft: 15, cursor: "pointer" }}
                   size="22"
                 />
               </Link>
+          {/* <button className="language-menu">ES</button> */}
+          {/* <DropdownMenu /> */}
             
          
           </div>

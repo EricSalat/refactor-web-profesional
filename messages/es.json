@@ -8,7 +8,8 @@
         "works": "Trabajos",
         "next": "Contacto",
         "cv": "Currículum",
-        "cv-file": "/CV_ERIC_SALAT_2024_ES.pdf"
+        "cv-file": "/CV_ERIC_SALAT_2024_ES.pdf",
+        "locale": "en"
     },
     "HERO": {
         "welcome": "Hola, me llamo",
@@ -92,6 +93,11 @@
         "p3": "Si tienes alguna propuesta o consulta, no dudes en contactarme.",
         "p4": "¡Te responderé lo más rápido posible!",
         "button-text": "Contacto"
+    },
+    "FOOTER": {
+        "read-this": "Lee esta página en ",
+        "language": "Inglés",
+        "locale": "en"
     }
 }
 

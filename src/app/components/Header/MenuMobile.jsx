@@ -1,10 +1,13 @@
 import * as React from "react";
 import {useTranslations} from 'next-intl';
+import {Link} from '../../../navigation';
 import "./Header.css";
 import Button from "../Button/Button";
 import { IoIosClose } from "react-icons/io";
 import { HiLanguage } from "react-icons/hi2";
-import Link from "next/link";
+
+
+
 
 
 function MenuMobile({onClick}) {
@@ -31,7 +34,7 @@ function MenuMobile({onClick}) {
               className="know-me-button"
             />
 
-            <Link href="/en">
+            <Link href="/" locale={t('locale')}>
                 <HiLanguage
                   style={{color: "var(--verde)", marginTop: 30, cursor: "pointer" }}
                   size="22"

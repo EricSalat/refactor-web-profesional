@@ -38,7 +38,7 @@ function ProjectsLayout() {
                 title: t('professional_website_title'),
                 description: t('professional_website_description'),
                 tech: ["HTML", "CSS", "Wordpress"],
-                weblink: t('professional-website-link'),
+                weblink: t('professional_website_link'),
                 githublink: "https://arianinternational.eu/",
                 repoReference: null,
             },
