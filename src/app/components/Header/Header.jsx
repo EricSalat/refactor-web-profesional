@@ -6,7 +6,7 @@ import Image from 'next/image'
 // import Link from "next/link";
 import {Link} from '../../../navigation';
 import logo from "../../../../public/logo.png";
-import DropdownMenu from "../Header/DropdownMenu";
+// import DropdownMenu from "../Header/DropdownMenu";
 import { BiMenuAltRight } from "react-icons/bi";
 import { HiLanguage } from "react-icons/hi2";
 import { useTranslations } from 'next-intl';
@@ -18,9 +18,9 @@ function Header(props) {
   return (
     <header>
       <nav className="animate__animated animate__fadeInDown animate__delay-2s">
-           <Link href="/">
+           {/* <Link href="/" locale={t('locale')}> */}
                <Image src={logo} height="40" width="40"  alt="" />
-           </Link>
+           {/* </Link> */}
           <div className="contenedor-menu">
             <ol>
               <li><a href="#about">{t('about')}</a></li>
