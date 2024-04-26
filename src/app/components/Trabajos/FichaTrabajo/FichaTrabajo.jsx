@@ -6,7 +6,7 @@ function FichaTrabajo(props) {
   
 
   return(
-    <div className="job-description animate__animated animate__fadeIn">
+    <div className="job-description animate__animated animate__fadeIn animate__delay-1s">
       {
         <div id={props.id}>
           <h3>{props.role} — <a href={props.href} target="_blank">{props.company}</a></h3>

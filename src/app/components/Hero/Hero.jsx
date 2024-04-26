@@ -1,5 +1,6 @@
 import * as React from "react";
 import Button from "../Button/Button";
+import "../Button/Button.css";
 import {useTranslations} from 'next-intl';
 
 export default function Hero() {

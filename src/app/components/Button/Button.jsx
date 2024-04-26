@@ -8,7 +8,7 @@ function Button(props) {
       href={props.href}
       target={props.target}
       >
-        <button type="button" className={props.className}>{props.texto}</button>
+        <button type="button" className={`button-default ${props.className}`}>{props.texto}</button>
       </a>
     </>
   );

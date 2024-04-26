@@ -117,10 +117,10 @@ export default function Trabajos(props) {
   ];
   
   return (
-    <>
+    <div className="animate__animated animate__fadeIn animate__delay-1s">
     <NumberedHeading texto="Donde he trabajado" />
-      <div className="jobs">
-        <div className="jobs-slider">
+      <div className="jobs animate__animated animate__fadeIn animate__delay-1s">
+        <div className="jobs-slider animate__animated animate__fadeIn animate__delay-1s">
           {tabData.map((tab) => (
             <TabButton
               key={tab.id}
@@ -135,7 +135,7 @@ export default function Trabajos(props) {
           tab.id === activeTab ? tab.component : null
         )}
       </div>
-  </>
+  </div>
   );
 }
 

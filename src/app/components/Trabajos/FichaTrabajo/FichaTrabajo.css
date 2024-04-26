@@ -5,6 +5,8 @@
 .job-description {
   height: 260px;
   margin-left: 2rem;
+  --animate-delay: 300ms;
+
 }
 
 .job-description h3 {

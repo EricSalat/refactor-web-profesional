@@ -8,7 +8,7 @@ export default function About() {
   const t = useTranslations('ABOUT');
 
     return(
-        <>
+        < div className="animate__animated animate__fadeIn animate__delay-1s">
         <NumberedHeading texto={t('title')} />
               <div className="about-me">
                 <div className="about-me-text">
@@ -33,6 +33,6 @@ export default function About() {
                   <Image
                    src={FotoEric} height="300" width="300" alt={t('image_alt')} title={t('image_alt')} />
               </div>     
-        </>
+        </div>
     );
 }

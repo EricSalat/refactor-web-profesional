@@ -152,6 +152,13 @@ section {
   cursor: pointer;
   font-size: 13px;
   --animate-delay: 1300ms;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1) !important;
+}
+
+.know-me-button:hover {
+  outline:none;
+  box-shadow: 4px 4px 0 0 var(--verde);
+  transform: translate(-5px, -5px);
 }
 
 main section:first-of-type p:last-of-type {
@@ -385,10 +392,6 @@ main section:first-of-type p:last-of-type {
   font-size: 13px;
 }
 
-button:hover {
-   outline:none;
-   background-color: rgba(100, 255, 218, 0.1);
-}
 
 /*Footer*/
 
