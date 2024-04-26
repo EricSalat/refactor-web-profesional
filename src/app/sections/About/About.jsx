@@ -1,7 +1,7 @@
 import * as React from "react";
 import FotoEric from "../../../../public/eric_salat.jpg";
 import Image from "next/image";
-import NumberedHeading from "../Numbered-Heading/Numbered-Heading";
+import NumberedHeading from "../../components/Numbered-Heading/Numbered-Heading";
 import {useTranslations} from 'next-intl';
 
 export default function About() {

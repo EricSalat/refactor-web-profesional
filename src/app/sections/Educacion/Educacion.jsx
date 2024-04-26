@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./Educacion.css";
-import NumberedHeading from "../Numbered-Heading/Numbered-Heading";
+import NumberedHeading from "../../components/Numbered-Heading/Numbered-Heading";
 
 
 function Educacion() {

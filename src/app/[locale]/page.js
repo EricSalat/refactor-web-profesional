@@ -1,18 +1,18 @@
 'use client'
 import { useState } from 'react';
 import {useTranslations} from 'next-intl';
-import About from '../components/About/About';
+import About from '../sections/About/About';
 import Button from "../components/Button/Button";
-import Footer from "../components/Footer/Footer";
-import Header from "../components/Header/Header";
-import Hero from "../components/Hero/Hero";
-import LeftAside from '../components/Asides/LeftAside';
-import MenuMobile from '../components/Header/MenuMobile';
+import Footer from "../sections/Footer/Footer";
+import Header from "../sections/Header/Header";
+import Hero from "../sections/Hero/Hero";
+import LeftAside from '../sections/Asides/LeftAside';
+import MenuMobile from '../sections/Header/MenuMobile';
 import NumberedHeading from '../components/Numbered-Heading/Numbered-Heading';
-import ProjectsLayout from '../components/Project/ProjectsLayout';
-import RightAside from '../components/Asides/RightAside';
-import Trabajos from '../components/Trabajos/Trabajos';
-import Contact from '../components/Contact/Contact';
+import ProjectsLayout from '../sections/Project/ProjectsLayout';
+import RightAside from '../sections/Asides/RightAside';
+import Trabajos from '../sections/Trabajos/Trabajos';
+import Contact from '../sections/Contact/Contact';
 
 export default function Home() {
   const t = useTranslations('HOME');

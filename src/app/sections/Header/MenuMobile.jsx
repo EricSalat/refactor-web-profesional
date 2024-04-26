@@ -2,7 +2,7 @@ import * as React from "react";
 import {useTranslations} from 'next-intl';
 import {Link} from '../../../navigation';
 import "./Header.css";
-import Button from "../Button/Button";
+import Button from "../../components/Button/Button";
 import { IoIosClose } from "react-icons/io";
 import { HiLanguage } from "react-icons/hi2";
 
