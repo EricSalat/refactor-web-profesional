@@ -26,6 +26,15 @@
         "image_alt": "Retrato de Èric Salat"   
     },
     "JOBS": {
+        "title": "Donde he trabajado",
+        "capitole_role": "Frontend & Email Developer",
+        "capitole_period": "Mayo 2024 - Actualidad (vía Capitole Consulting)",
+        "capitole_duty1": "Desarrollo y prueba de código para los emails de Vueling, con más de 20 millones de envíos mensuales.",
+        "capitole_duty2": "Remaquetación y actualización de emails conforme a la nueva imagen de marca como parte del proceso de rebranding de la compañía.",
+        "capitole_duty3": "Desarrollo de scripts en AMPscript en Salesforce para implementar la lógica de negocio en el frontend y personalizar las comunicaciones por email, ajustando los contenidos a las necesidades específicas de cada cliente.",
+        "capitole_duty4": "Creación de una librería de componentes frontend reutilizables, mejorando la eficiencia en el desarrollo y garantizando la consistencia en la interfaz de usuario.",
+        
+
         "digital_response_role": "Frontend and Email Developer",
         "digital_response_period": "Enero 2023 - Abril 2024",
         "digital_response_duty1": "Implementé diseños de campañas de correo electrónico utilizando HTML, CSS y JavaScript para CaixaBank.",

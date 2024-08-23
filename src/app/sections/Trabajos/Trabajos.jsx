@@ -10,10 +10,28 @@ import { useTranslations } from 'next-intl';
 
 export default function Trabajos(props) {
 
-  const [activeTab, setActiveTab] = useState("digitalResponse");
+  const [activeTab, setActiveTab] = useState("capitole");
   const t = useTranslations('JOBS');
 
   const tabData = [
+    {
+      id: "capitole",
+      text: "Vueling",
+      component: (
+        <FichaTrabajo
+          id="capitole-description"
+          role={t("capitole_role")}
+          href="https://www.vueling.com/es"
+          company="Vueling"
+          period={t("capitole_period")}
+          duty1={t("capitole_duty1")}
+          duty2={t("capitole_duty2")}
+          duty3={t("capitole_duty3")}
+          duty4={t("capitole_duty4")}
+        />
+      ),
+
+    },
     {
       id: "digitalResponse",
       text: "Digital Response",
@@ -87,7 +105,8 @@ export default function Trabajos(props) {
       component: (
       <FichaTrabajo
           id="adiplus-description"
-          role={t("adiplus_role")}          href="https://www.linkedin.com/company/adiplus-techandcontent/"
+          role={t("adiplus_role")}          
+          href="https://www.linkedin.com/company/adiplus-techandcontent/"
           company="Adiplus Tech & Content"
           period={t("adiplus_period")} 
           duty1={t("adiplus_duty1")} 
@@ -114,11 +133,12 @@ export default function Trabajos(props) {
         />
       )
     }
+    
   ];
   
   return (
     <div className="animate__animated animate__fadeIn animate__delay-1s">
-    <NumberedHeading texto="Donde he trabajado" />
+    <NumberedHeading texto={t("title")}  />
       <div className="jobs animate__animated animate__fadeIn animate__delay-1s">
         <div className="jobs-slider animate__animated animate__fadeIn animate__delay-1s">
           {tabData.map((tab) => (
